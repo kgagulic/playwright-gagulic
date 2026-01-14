@@ -1,0 +1,5 @@
+- Valid Email Format Login Validation
+- Invalid Email Format Login Validation
+- Forgot Password Functionality
+- Customer Feedback Form Submission
+- Verify functionality of "Like" button on product reviews
