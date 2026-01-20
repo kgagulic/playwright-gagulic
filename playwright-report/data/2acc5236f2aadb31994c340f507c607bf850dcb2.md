@@ -1,0 +1,2249 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - dialog "cookieconsent" [ref=e1]:
+    - generic [ref=e2]:
+      - text: This website uses fruit cookies to ensure you get the juiciest tracking experience.
+      - button "learn more about cookies" [ref=e3] [cursor=pointer]: But me wait!
+    - button "dismiss cookie message" [ref=e5] [cursor=pointer]: Me want it!
+  - generic [ref=e9]:
+    - generic [ref=e12]:
+      - button [ref=e13] [cursor=pointer]:
+        - img [ref=e14]: menu
+      - button [ref=e17]:
+        - generic [ref=e19]:
+          - img [ref=e20]
+          - generic [ref=e21]: OWASP Juice Shop
+      - generic [ref=e24]:
+        - img [ref=e26]: close
+        - img [ref=e27]: search
+      - button [ref=e28]:
+        - img [ref=e29]: account_circle
+        - generic [ref=e30]: Account
+      - button [ref=e33]:
+        - img [ref=e34]: language
+        - generic [ref=e35]: EN
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - paragraph [ref=e43]: 20%
+            - paragraph [ref=e44]: Hacking Challenges
+          - img [ref=e49]
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - paragraph [ref=e55]: 0%
+            - paragraph [ref=e56]: Coding Challenges
+          - img [ref=e60]
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: 22/172
+            - paragraph [ref=e68]: Challenges Solved
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - img [ref=e73]
+                - generic [ref=e75]: "1"
+              - generic [ref=e76]: 9/28
+            - generic [ref=e77]:
+              - generic [ref=e78]:
+                - img [ref=e79]
+                - generic [ref=e81]: "2"
+              - generic [ref=e82]: 5/23
+            - generic [ref=e83]:
+              - generic [ref=e84]:
+                - img [ref=e85]
+                - generic [ref=e87]: "3"
+              - generic [ref=e88]: 5/44
+            - generic [ref=e89]:
+              - generic [ref=e90]:
+                - img [ref=e91]
+                - generic [ref=e93]: "4"
+              - generic [ref=e94]: 3/37
+            - generic [ref=e95]:
+              - generic [ref=e96]:
+                - img [ref=e97]
+                - generic [ref=e99]: "5"
+              - generic [ref=e100]: 0/26
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - img [ref=e103]
+                - generic [ref=e105]: "6"
+              - generic [ref=e106]: 0/14
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e112]:
+            - img [ref=e114]: search
+            - generic [ref=e115]:
+              - generic [ref=e116]: Search
+              - searchbox [ref=e117]
+          - generic [ref=e119]:
+            - generic [ref=e123] [cursor=pointer]:
+              - generic [ref=e124]: Difficulty
+              - combobox [ref=e125]:
+                - img [ref=e131]
+            - generic [ref=e137] [cursor=pointer]:
+              - generic [ref=e138]: Status
+              - combobox [ref=e139]:
+                - generic [ref=e140]:
+                  - generic [ref=e142]: All
+                  - img [ref=e145]
+            - generic [ref=e151] [cursor=pointer]:
+              - generic [ref=e152]: Tags
+              - combobox [ref=e153]:
+                - img [ref=e159]
+            - generic [ref=e162]:
+              - button [ref=e164] [cursor=pointer]:
+                - img [ref=e165]
+              - button [ref=e170] [cursor=pointer]:
+                - img [ref=e171]: settings
+        - generic [ref=e174]:
+          - button [ref=e175] [cursor=pointer]: All
+          - button [ref=e176] [cursor=pointer]: XSS
+          - button [ref=e177] [cursor=pointer]: Observability Failures
+          - button [ref=e178] [cursor=pointer]: Improper Input Validation
+          - button [ref=e179] [cursor=pointer]: Broken Access Control
+          - button [ref=e180] [cursor=pointer]: Unvalidated Redirects
+          - button [ref=e181] [cursor=pointer]: Vulnerable Components
+          - button [ref=e182] [cursor=pointer]: Broken Authentication
+          - button [ref=e183] [cursor=pointer]: Security through Obscurity
+          - button [ref=e184] [cursor=pointer]: Insecure Deserialization
+          - button [ref=e185] [cursor=pointer]: Miscellaneous
+          - button [ref=e186] [cursor=pointer]: Broken Anti Automation
+          - button [ref=e187] [cursor=pointer]: Injection
+          - button [ref=e188] [cursor=pointer]: Sensitive Data Exposure
+          - button [ref=e189] [cursor=pointer]: Security Misconfiguration
+          - button [ref=e190] [cursor=pointer]: Cryptographic Issues
+          - button [ref=e191] [cursor=pointer]: XXE
+      - generic [ref=e194]:
+        - generic [ref=e195]:
+          - generic [ref=e196]: 
+          - generic [ref=e198]:
+            - text: 17 challenges are unavailable on Heroku due to
+            - link [ref=e199] [cursor=pointer]:
+              - /url: https://pwning.owasp-juice.shop/companion-guide/latest/part1/challenges.html#_potentially_dangerous_challenges
+              - text: security concerns
+            - text: or technical incompatibility!
+        - button [ref=e201]:
+          - generic [ref=e202]: Hide disabled challenges
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - generic [ref=e207]: Miscellaneous
+          - generic [ref=e208]:
+            - generic [ref=e210]: Score Board
+            - img [ref=e212]
+          - generic [ref=e214]: Find the carefully hidden 'Score Board' page.
+          - generic [ref=e215]:
+            - generic [ref=e216]:
+              - generic [ref=e217]: Tutorial
+              - generic [ref=e218]: Code Analysis
+              - generic [ref=e219]: With Coding Challenge
+            - generic [ref=e220]:
+              - button [ref=e221] [cursor=pointer]:
+                - img [ref=e222]: code
+              - button [ref=e223] [cursor=pointer]:
+                - img [ref=e224]: school_outline
+        - generic [ref=e225]:
+          - generic [ref=e226]: XSS
+          - generic [ref=e227]:
+            - generic [ref=e229]: DOM XSS
+            - img [ref=e231]
+          - generic [ref=e233]:
+            - text: Perform a DOM XSS attack with
+            - code [ref=e234]: "<iframe src=\"javascript:alert(`xss`)\">"
+            - text: .
+          - generic [ref=e235]:
+            - generic [ref=e236]:
+              - generic [ref=e237]: Tutorial
+              - generic [ref=e238]: Good for Demos
+              - generic [ref=e239]: With Coding Challenge
+            - generic [ref=e240]:
+              - button [ref=e241] [cursor=pointer]:
+                - img [ref=e242]: code
+              - link [ref=e243] [cursor=pointer]:
+                - /url: https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html
+                - img [ref=e244]: policy_outline
+              - button [ref=e245] [cursor=pointer]:
+                - img [ref=e246]: school_outline
+              - button [ref=e247] [cursor=pointer]:
+                - img [ref=e248]: lightbulb_outlined
+                - text: 0/2
+        - generic [ref=e249]:
+          - generic [ref=e250]: XSS
+          - generic [ref=e251]:
+            - generic [ref=e253]: Bonus Payload
+            - img [ref=e255]
+          - generic [ref=e257]:
+            - text: Use the bonus payload
+            - code [ref=e258]: <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            - text: in the DOM XSS challenge.
+          - generic [ref=e259]:
+            - generic [ref=e260]:
+              - generic [ref=e261]: Shenanigans
+              - generic [ref=e262]: Tutorial
+              - generic [ref=e263]: With Coding Challenge
+            - generic [ref=e264]:
+              - button [ref=e265] [cursor=pointer]:
+                - img [ref=e266]: code
+              - link [ref=e267] [cursor=pointer]:
+                - /url: https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html
+                - img [ref=e268]: policy_outline
+              - button [ref=e269] [cursor=pointer]:
+                - img [ref=e270]: school_outline
+              - button [ref=e271] [cursor=pointer]:
+                - img [ref=e272]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e273]:
+          - generic [ref=e274]: Miscellaneous
+          - generic [ref=e275]:
+            - generic [ref=e277]: Privacy Policy
+            - img [ref=e279]
+          - generic [ref=e281]: Read our privacy policy.
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - generic [ref=e284]: Good Practice
+              - generic [ref=e285]: Tutorial
+              - generic [ref=e286]: Good for Demos
+            - generic [ref=e287]:
+              - button [ref=e288] [cursor=pointer]:
+                - img [ref=e289]: school_outline
+              - button [ref=e290] [cursor=pointer]:
+                - img [ref=e291]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e292]:
+          - generic [ref=e293]: Miscellaneous
+          - generic [ref=e294]:
+            - generic [ref=e296]: Bully Chatbot
+            - img [ref=e298]
+          - generic [ref=e300]: Receive a coupon code from the support chatbot.
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - generic [ref=e303]: Shenanigans
+              - generic [ref=e304]: Brute Force
+            - button [ref=e306] [cursor=pointer]:
+              - img [ref=e307]: lightbulb_outlined
+              - text: 0/3
+        - generic [ref=e308]:
+          - generic [ref=e309]: Sensitive Data Exposure
+          - generic [ref=e310]:
+            - generic [ref=e312]: Confidential Document
+            - img [ref=e314]
+          - generic [ref=e316]: Access a confidential document.
+          - generic [ref=e317]:
+            - generic [ref=e318]:
+              - generic [ref=e319]: Good for Demos
+              - generic [ref=e320]: With Coding Challenge
+            - generic [ref=e321]:
+              - button [ref=e322] [cursor=pointer]:
+                - img [ref=e323]: code
+              - button [ref=e324] [cursor=pointer]:
+                - img [ref=e325]: lightbulb_outlined
+                - text: 0/2
+        - generic [ref=e326]:
+          - generic [ref=e327]: Security Misconfiguration
+          - generic [ref=e328]:
+            - generic [ref=e330]: Error Handling
+            - img [ref=e332]
+          - generic [ref=e334]: Provoke an error that is neither very gracefully nor consistently handled.
+          - generic [ref=e335]:
+            - generic [ref=e337]: Prerequisite
+            - generic [ref=e338]:
+              - link [ref=e339] [cursor=pointer]:
+                - /url: https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html
+                - img [ref=e340]: policy_outline
+              - button [ref=e341] [cursor=pointer]:
+                - img [ref=e342]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e343]:
+          - generic [ref=e344]: Observability Failures
+          - generic [ref=e345]:
+            - generic [ref=e347]: Exposed Metrics
+            - img [ref=e349]
+          - generic [ref=e351]:
+            - text: Find the endpoint that serves usage data to be scraped by a
+            - link [ref=e352] [cursor=pointer]:
+              - /url: https://github.com/prometheus/prometheus
+              - text: popular monitoring system
+            - text: .
+          - generic [ref=e353]:
+            - generic [ref=e354]:
+              - generic [ref=e355]: Good Practice
+              - generic [ref=e356]: With Coding Challenge
+            - generic [ref=e357]:
+              - button [ref=e358] [cursor=pointer]:
+                - img [ref=e359]: code
+              - button [ref=e360] [cursor=pointer]:
+                - img [ref=e361]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e362]:
+          - generic [ref=e363]: Miscellaneous
+          - generic [ref=e364]:
+            - generic [ref=e366]: Mass Dispel
+            - img [ref=e368]
+          - generic [ref=e370]: Close multiple "Challenge solved"-notifications in one go.
+          - button [ref=e373] [cursor=pointer]:
+            - img [ref=e374]: lightbulb_outlined
+            - text: 0/3
+        - generic [ref=e375]:
+          - generic [ref=e376]: Improper Input Validation
+          - generic [ref=e377]:
+            - generic [ref=e379]: Missing Encoding
+            - img [ref=e381]
+          - generic [ref=e383]: Retrieve the photo of Bjoern's cat in "melee combat-mode".
+          - generic [ref=e384]:
+            - generic [ref=e386]: Shenanigans
+            - button [ref=e388] [cursor=pointer]:
+              - img [ref=e389]: lightbulb_outlined
+              - text: 0/3
+        - generic [ref=e390]:
+          - generic [ref=e391]: Unvalidated Redirects
+          - generic [ref=e392]:
+            - generic [ref=e394]: Outdated Allowlist
+            - img [ref=e396]
+          - generic [ref=e398]: Let us redirect you to one of our crypto currency addresses which are not promoted any longer.
+          - generic [ref=e399]:
+            - generic [ref=e400]:
+              - generic [ref=e401]: Code Analysis
+              - generic [ref=e402]: With Coding Challenge
+            - generic [ref=e403]:
+              - button [disabled] [ref=e404]:
+                - img [ref=e405]: code
+              - button [ref=e406] [cursor=pointer]:
+                - img [ref=e407]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e408]:
+          - generic [ref=e409]: Improper Input Validation
+          - generic [ref=e410]:
+            - generic [ref=e412]: Repetitive Registration
+            - img [ref=e414]
+          - generic [ref=e416]: Follow the DRY principle while registering a user.
+          - generic [ref=e418]:
+            - link [ref=e419] [cursor=pointer]:
+              - /url: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
+              - img [ref=e420]: policy_outline
+            - button [ref=e421] [cursor=pointer]:
+              - img [ref=e422]: lightbulb_outlined
+              - text: 0/4
+        - generic [ref=e423]:
+          - generic [ref=e424]: Broken Access Control
+          - generic [ref=e425]:
+            - generic [ref=e427]: Web3 Sandbox
+            - img [ref=e429]
+          - generic [ref=e431]: Find an accidentally deployed code sandbox for writing smart contracts on the fly.
+          - generic [ref=e432]:
+            - generic [ref=e433]:
+              - generic [ref=e434]: Web3
+              - generic [ref=e435]: With Coding Challenge
+            - generic [ref=e436]:
+              - button [disabled] [ref=e437]:
+                - img [ref=e438]: code
+              - button [ref=e439] [cursor=pointer]:
+                - img [ref=e440]: lightbulb_outlined
+                - text: 0/1
+        - generic [ref=e441]:
+          - generic [ref=e442]: Improper Input Validation
+          - generic [ref=e443]:
+            - generic [ref=e445]: Zero Stars
+            - img [ref=e447]
+          - generic [ref=e449]: Give a devastating zero-star feedback to the store.
+          - button [ref=e452] [cursor=pointer]:
+            - img [ref=e453]: lightbulb_outlined
+            - text: 0/1
+        - generic [ref=e454]:
+          - generic [ref=e455]: XSS
+          - generic [ref=e456]:
+            - generic [ref=e458]: Reflected XSS
+            - generic [ref=e459]:
+              - img [ref=e460]
+              - img [ref=e462]
+          - generic [ref=e464]:
+            - text: Perform a reflected XSS attack with
+            - code [ref=e465]: "<iframe src=\"javascript:alert(`xss`)\">"
+            - text: .
+            - emphasis [ref=e466]:
+              - text: (This challenge is
+              - strong [ref=e467]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e468]:
+            - generic [ref=e469]:
+              - generic [ref=e470]: Tutorial
+              - generic [ref=e471]: Danger Zone
+              - generic [ref=e472]: Good for Demos
+            - generic [ref=e473]:
+              - button [ref=e474] [cursor=pointer]:
+                - img [ref=e475]: info_outline
+              - button [ref=e476] [cursor=pointer]:
+                - img [ref=e477]: school_outline
+              - button [ref=e478] [cursor=pointer]:
+                - img [ref=e479]: lightbulb_outlined
+                - text: 0/2
+        - generic [ref=e480]:
+          - generic [ref=e481]: Sensitive Data Exposure
+          - generic [ref=e482]:
+            - generic [ref=e484]: Exposed credentials
+            - generic [ref=e485]:
+              - img [ref=e486]
+              - img [ref=e488]
+          - generic [ref=e490]: A developer was careless with hardcoding unused, but still valid credentials for a testing account on the client-side.
+          - generic [ref=e492]:
+            - button [ref=e493] [cursor=pointer]:
+              - img [ref=e494]: school_outline
+            - button [ref=e495] [cursor=pointer]:
+              - img [ref=e496]: lightbulb_outlined
+              - text: 0/1
+        - generic [ref=e497]:
+          - generic [ref=e498]: Injection
+          - generic [ref=e499]:
+            - generic [ref=e501]: Login Admin
+            - generic [ref=e502]:
+              - img [ref=e503]
+              - img [ref=e505]
+          - generic [ref=e507]: Log in with the administrator's user account.
+          - generic [ref=e508]:
+            - generic [ref=e509]:
+              - generic [ref=e510]: Tutorial
+              - generic [ref=e511]: Good for Demos
+              - generic [ref=e512]: With Coding Challenge
+            - generic [ref=e513]:
+              - button [ref=e514] [cursor=pointer]:
+                - img [ref=e515]: code
+              - link [ref=e516] [cursor=pointer]:
+                - /url: https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
+                - img [ref=e517]: policy_outline
+              - button [ref=e518] [cursor=pointer]:
+                - img [ref=e519]: school_outline
+              - button [ref=e520] [cursor=pointer]:
+                - img [ref=e521]: lightbulb_outlined
+                - text: 0/5
+        - generic [ref=e522]:
+          - generic [ref=e523]: Broken Access Control
+          - generic [ref=e524]:
+            - generic [ref=e526]: Admin Section
+            - generic [ref=e527]:
+              - img [ref=e528]
+              - img [ref=e530]
+          - generic [ref=e532]: Access the administration section of the store.
+          - generic [ref=e533]:
+            - generic [ref=e534]:
+              - generic [ref=e535]: Good for Demos
+              - generic [ref=e536]: With Coding Challenge
+            - generic [ref=e537]:
+              - button [disabled] [ref=e538]:
+                - img [ref=e539]: code
+              - button [ref=e540] [cursor=pointer]:
+                - img [ref=e541]: school_outline
+              - button [ref=e542] [cursor=pointer]:
+                - img [ref=e543]: lightbulb_outlined
+                - text: 0/5
+        - generic [ref=e544]:
+          - generic [ref=e545]: Broken Authentication
+          - generic [ref=e546]:
+            - generic [ref=e548]: Password Strength
+            - generic [ref=e549]:
+              - img [ref=e550]
+              - img [ref=e552]
+          - generic [ref=e554]: Log in with the administrator's user credentials without previously changing them or applying SQL Injection.
+          - generic [ref=e555]:
+            - generic [ref=e556]:
+              - generic [ref=e557]: Brute Force
+              - generic [ref=e558]: Tutorial
+              - generic [ref=e559]: With Coding Challenge
+            - generic [ref=e560]:
+              - button [ref=e561] [cursor=pointer]:
+                - img [ref=e562]: code
+              - link [ref=e563] [cursor=pointer]:
+                - /url: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
+                - img [ref=e564]: policy_outline
+              - button [ref=e565] [cursor=pointer]:
+                - img [ref=e566]: school_outline
+              - button [ref=e567] [cursor=pointer]:
+                - img [ref=e568]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e569]:
+          - generic [ref=e570]: Broken Access Control
+          - generic [ref=e571]:
+            - generic [ref=e573]: View Basket
+            - generic [ref=e574]:
+              - img [ref=e575]
+              - img [ref=e577]
+          - generic [ref=e579]: View another user's shopping basket.
+          - generic [ref=e580]:
+            - generic [ref=e581]:
+              - generic [ref=e582]: Tutorial
+              - generic [ref=e583]: Good for Demos
+            - generic [ref=e584]:
+              - link [ref=e585] [cursor=pointer]:
+                - /url: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+                - img [ref=e586]: policy_outline
+              - button [ref=e587] [cursor=pointer]:
+                - img [ref=e588]: school_outline
+              - button [ref=e589] [cursor=pointer]:
+                - img [ref=e590]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e591]:
+          - generic [ref=e592]: Security Misconfiguration
+          - generic [ref=e593]:
+            - generic [ref=e595]: Deprecated Interface
+            - generic [ref=e596]:
+              - img [ref=e597]
+              - img [ref=e599]
+          - generic [ref=e601]: Use a deprecated B2B interface that was not properly shut down.
+          - generic [ref=e602]:
+            - generic [ref=e603]:
+              - generic [ref=e604]: Contraption
+              - generic [ref=e605]: Prerequisite
+            - button [ref=e607] [cursor=pointer]:
+              - img [ref=e608]: lightbulb_outlined
+              - text: 0/4
+        - generic [ref=e609]:
+          - generic [ref=e610]: Improper Input Validation
+          - generic [ref=e611]:
+            - generic [ref=e613]: Empty User Registration
+            - generic [ref=e614]:
+              - img [ref=e615]
+              - img [ref=e617]
+          - generic [ref=e619]: Register a user with an empty email and password.
+          - button [ref=e622] [cursor=pointer]:
+            - img [ref=e623]: lightbulb_outlined
+            - text: 0/1
+        - generic [ref=e624]:
+          - generic [ref=e625]: Broken Access Control
+          - generic [ref=e626]:
+            - generic [ref=e628]: Five-Star Feedback
+            - generic [ref=e629]:
+              - img [ref=e630]
+              - img [ref=e632]
+          - generic [ref=e634]: Get rid of all 5-star customer feedback.
+          - generic [ref=e636]:
+            - link [ref=e637] [cursor=pointer]:
+              - /url: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+              - img [ref=e638]: policy_outline
+            - button [ref=e639] [cursor=pointer]:
+              - img [ref=e640]: lightbulb_outlined
+              - text: 0/2
+        - generic [ref=e641]:
+          - generic [ref=e642]: Sensitive Data Exposure
+          - generic [ref=e643]:
+            - generic [ref=e645]: Login MC SafeSearch
+            - generic [ref=e646]:
+              - img [ref=e647]
+              - img [ref=e649]
+          - generic [ref=e651]: Log in with MC SafeSearch's original user credentials without applying SQL Injection or any other bypass.
+          - generic [ref=e652]:
+            - generic [ref=e653]:
+              - generic [ref=e654]: Shenanigans
+              - generic [ref=e655]: OSINT
+            - button [ref=e657] [cursor=pointer]:
+              - img [ref=e658]: lightbulb_outlined
+              - text: 0/2
+        - generic [ref=e659]:
+          - generic [ref=e660]: Sensitive Data Exposure
+          - generic [ref=e661]:
+            - generic [ref=e663]: Meta Geo Stalking
+            - generic [ref=e664]:
+              - img [ref=e665]
+              - img [ref=e667]
+          - generic [ref=e669]:
+            - text: Determine the answer to John's security question by looking at an upload of him to the Photo Wall and use it to reset his password via the
+            - link [ref=e670] [cursor=pointer]:
+              - /url: /#/forgot-password
+              - text: Forgot Password
+            - text: mechanism.
+          - generic [ref=e671]:
+            - generic [ref=e673]: OSINT
+            - button [ref=e675] [cursor=pointer]:
+              - img [ref=e676]: lightbulb_outlined
+              - text: 0/3
+        - generic [ref=e677]:
+          - generic [ref=e678]: Sensitive Data Exposure
+          - generic [ref=e679]:
+            - generic [ref=e681]: NFT Takeover
+            - generic [ref=e682]:
+              - img [ref=e683]
+              - img [ref=e685]
+          - generic [ref=e687]: Take over the wallet containing our official Soul Bound Token (NFT).
+          - generic [ref=e688]:
+            - generic [ref=e689]:
+              - generic [ref=e690]: Contraption
+              - generic [ref=e691]: Good for Demos
+              - generic [ref=e692]: Web3
+              - generic [ref=e693]: With Coding Challenge
+            - generic [ref=e694]:
+              - button [disabled] [ref=e695]:
+                - img [ref=e696]: code
+              - button [ref=e697] [cursor=pointer]:
+                - img [ref=e698]: lightbulb_outlined
+                - text: 0/1
+        - generic [ref=e699]:
+          - generic [ref=e700]: Miscellaneous
+          - generic [ref=e701]:
+            - generic [ref=e703]: Security Policy
+            - generic [ref=e704]:
+              - img [ref=e705]
+              - img [ref=e707]
+          - generic [ref=e709]: Behave like any "white-hat" should before getting into the action.
+          - generic [ref=e710]:
+            - generic [ref=e712]: Good Practice
+            - generic [ref=e713]:
+              - link [ref=e714] [cursor=pointer]:
+                - /url: https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html
+                - img [ref=e715]: policy_outline
+              - button [ref=e716] [cursor=pointer]:
+                - img [ref=e717]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e718]:
+          - generic [ref=e719]: Sensitive Data Exposure
+          - generic [ref=e720]:
+            - generic [ref=e722]: Visual Geo Stalking
+            - generic [ref=e723]:
+              - img [ref=e724]
+              - img [ref=e726]
+          - generic [ref=e728]:
+            - text: Determine the answer to Emma's security question by looking at an upload of her to the Photo Wall and use it to reset her password via the
+            - link [ref=e729] [cursor=pointer]:
+              - /url: /#/forgot-password
+              - text: Forgot Password
+            - text: mechanism.
+          - generic [ref=e730]:
+            - generic [ref=e732]: OSINT
+            - button [ref=e734] [cursor=pointer]:
+              - img [ref=e735]: lightbulb_outlined
+              - text: 0/1
+        - generic [ref=e736]:
+          - generic [ref=e737]: Cryptographic Issues
+          - generic [ref=e738]:
+            - generic [ref=e740]: Weird Crypto
+            - generic [ref=e741]:
+              - img [ref=e742]
+              - img [ref=e744]
+          - generic [ref=e746]:
+            - link [ref=e747] [cursor=pointer]:
+              - /url: /#/contact
+              - text: Inform the shop
+            - text: about an algorithm or library it should definitely not use the way it does.
+          - button [ref=e750] [cursor=pointer]:
+            - img [ref=e751]: lightbulb_outlined
+            - text: 0/2
+        - generic [ref=e752]:
+          - generic [ref=e753]: Broken Access Control
+          - generic [ref=e754]:
+            - generic [ref=e756]: Forged Feedback
+            - generic [ref=e757]:
+              - img [ref=e758]
+              - img [ref=e760]
+              - img [ref=e762]
+          - generic [ref=e764]: Post some feedback in another user's name.
+          - generic [ref=e765]:
+            - generic [ref=e767]: Tutorial
+            - generic [ref=e768]:
+              - button [ref=e769] [cursor=pointer]:
+                - img [ref=e770]: school_outline
+              - button [ref=e771] [cursor=pointer]:
+                - img [ref=e772]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e773]:
+          - generic [ref=e774]: Injection
+          - generic [ref=e775]:
+            - generic [ref=e777]: Login Jim
+            - generic [ref=e778]:
+              - img [ref=e779]
+              - img [ref=e781]
+              - img [ref=e783]
+          - generic [ref=e785]: Log in with Jim's user account.
+          - generic [ref=e786]:
+            - generic [ref=e787]:
+              - generic [ref=e788]: Tutorial
+              - generic [ref=e789]: With Coding Challenge
+            - generic [ref=e790]:
+              - button [ref=e791] [cursor=pointer]:
+                - img [ref=e792]: code
+              - link [ref=e793] [cursor=pointer]:
+                - /url: https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
+                - img [ref=e794]: policy_outline
+              - button [ref=e795] [cursor=pointer]:
+                - img [ref=e796]: school_outline
+              - button [ref=e797] [cursor=pointer]:
+                - img [ref=e798]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e799]:
+          - generic [ref=e800]: Injection
+          - generic [ref=e801]:
+            - generic [ref=e803]: Login Bender
+            - generic [ref=e804]:
+              - img [ref=e805]
+              - img [ref=e807]
+              - img [ref=e809]
+          - generic [ref=e811]: Log in with Bender's user account.
+          - generic [ref=e812]:
+            - generic [ref=e813]:
+              - generic [ref=e814]: Tutorial
+              - generic [ref=e815]: With Coding Challenge
+            - generic [ref=e816]:
+              - button [ref=e817] [cursor=pointer]:
+                - img [ref=e818]: code
+              - link [ref=e819] [cursor=pointer]:
+                - /url: https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
+                - img [ref=e820]: policy_outline
+              - button [ref=e821] [cursor=pointer]:
+                - img [ref=e822]: school_outline
+              - button [ref=e823] [cursor=pointer]:
+                - img [ref=e824]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e825]:
+          - generic [ref=e826]: XSS
+          - generic [ref=e827]:
+            - generic [ref=e829]: API-only XSS
+            - generic [ref=e830]:
+              - img [ref=e831]
+              - img [ref=e833]
+              - img [ref=e835]
+          - generic [ref=e837]:
+            - text: Perform a persisted XSS attack with
+            - code [ref=e838]: "<iframe src=\"javascript:alert(`xss`)\">"
+            - text: without using the frontend application at all.
+            - emphasis [ref=e839]:
+              - text: (This challenge is
+              - strong [ref=e840]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e841]:
+            - generic [ref=e842]:
+              - generic [ref=e843]: Danger Zone
+              - generic [ref=e844]: With Coding Challenge
+            - generic [ref=e845]:
+              - button [ref=e846] [cursor=pointer]:
+                - img [ref=e847]: info_outline
+              - button [disabled] [ref=e848]:
+                - img [ref=e849]: code
+              - button [ref=e850] [cursor=pointer]:
+                - img [ref=e851]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e852]:
+          - generic [ref=e853]: Improper Input Validation
+          - generic [ref=e854]:
+            - generic [ref=e856]: Admin Registration
+            - generic [ref=e857]:
+              - img [ref=e858]
+              - img [ref=e860]
+              - img [ref=e862]
+          - generic [ref=e864]: Register as a user with administrator privileges.
+          - generic [ref=e865]:
+            - generic [ref=e867]: With Coding Challenge
+            - generic [ref=e868]:
+              - button [ref=e869] [cursor=pointer]:
+                - img [ref=e870]: code
+              - link [ref=e871] [cursor=pointer]:
+                - /url: https://cheatsheetseries.owasp.org/cheatsheets/Mass_Assignment_Cheat_Sheet.html
+                - img [ref=e872]: policy_outline
+              - button [ref=e873] [cursor=pointer]:
+                - img [ref=e874]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e875]:
+          - generic [ref=e876]: Broken Authentication
+          - generic [ref=e877]:
+            - generic [ref=e879]: Bjoern's Favorite Pet
+            - generic [ref=e880]:
+              - img [ref=e881]
+              - img [ref=e883]
+              - img [ref=e885]
+          - generic [ref=e887]:
+            - text: Reset the password of Bjoern's OWASP account via the
+            - link [ref=e888] [cursor=pointer]:
+              - /url: /#/forgot-password
+              - text: Forgot Password
+            - text: mechanism with the original answer to his security question.
+          - generic [ref=e889]:
+            - generic [ref=e890]:
+              - generic [ref=e891]: OSINT
+              - generic [ref=e892]: With Coding Challenge
+            - generic [ref=e893]:
+              - button [disabled] [ref=e894]:
+                - img [ref=e895]: code
+              - button [ref=e896] [cursor=pointer]:
+                - img [ref=e897]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e898]:
+          - generic [ref=e899]: Broken Anti Automation
+          - generic [ref=e900]:
+            - generic [ref=e902]: CAPTCHA Bypass
+            - generic [ref=e903]:
+              - img [ref=e904]
+              - img [ref=e906]
+              - img [ref=e908]
+          - generic [ref=e910]: Submit 10 or more customer feedbacks within 20 seconds.
+          - generic [ref=e911]:
+            - generic [ref=e913]: Brute Force
+            - button [ref=e915] [cursor=pointer]:
+              - img [ref=e916]: lightbulb_outlined
+              - text: 0/5
+        - generic [ref=e917]:
+          - generic [ref=e918]: Broken Access Control
+          - generic [ref=e919]:
+            - generic [ref=e921]: CSRF
+            - generic [ref=e922]:
+              - img [ref=e923]
+              - img [ref=e925]
+              - img [ref=e927]
+          - generic [ref=e929]:
+            - text: Change the name of a user by performing Cross-Site Request Forgery from
+            - link [ref=e930] [cursor=pointer]:
+              - /url: http://htmledit.squarefree.com
+              - text: another origin
+            - text: .
+          - button [ref=e933] [cursor=pointer]:
+            - img [ref=e934]: lightbulb_outlined
+            - text: 0/4
+        - generic [ref=e935]:
+          - generic [ref=e936]: XSS
+          - generic [ref=e937]:
+            - generic [ref=e939]: Client-side XSS Protection
+            - generic [ref=e940]:
+              - img [ref=e941]
+              - img [ref=e943]
+              - img [ref=e945]
+          - generic [ref=e947]:
+            - text: Perform a persisted XSS attack with
+            - code [ref=e948]: "<iframe src=\"javascript:alert(`xss`)\">"
+            - text: bypassing a client-side security mechanism.
+            - emphasis [ref=e949]:
+              - text: (This challenge is
+              - strong [ref=e950]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e951]:
+            - generic [ref=e953]: Danger Zone
+            - generic [ref=e954]:
+              - button [ref=e955] [cursor=pointer]:
+                - img [ref=e956]: info_outline
+              - button [ref=e957] [cursor=pointer]:
+                - img [ref=e958]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e959]:
+          - generic [ref=e960]: Injection
+          - generic [ref=e961]:
+            - generic [ref=e963]: Database Schema
+            - generic [ref=e964]:
+              - img [ref=e965]
+              - img [ref=e967]
+              - img [ref=e969]
+          - generic [ref=e971]: Exfiltrate the entire DB schema definition via SQL Injection.
+          - generic [ref=e972]:
+            - generic [ref=e974]: With Coding Challenge
+            - generic [ref=e975]:
+              - button [disabled] [ref=e976]:
+                - img [ref=e977]: code
+              - button [ref=e978] [cursor=pointer]:
+                - img [ref=e979]: lightbulb_outlined
+                - text: 0/5
+        - generic [ref=e980]:
+          - generic [ref=e981]: Improper Input Validation
+          - generic [ref=e982]:
+            - generic [ref=e984]: Deluxe Fraud
+            - generic [ref=e985]:
+              - img [ref=e986]
+              - img [ref=e988]
+              - img [ref=e990]
+          - generic [ref=e992]: Obtain a Deluxe Membership without paying for it.
+          - button [ref=e995] [cursor=pointer]:
+            - img [ref=e996]: lightbulb_outlined
+            - text: 0/4
+        - generic [ref=e997]:
+          - generic [ref=e998]: Broken Access Control
+          - generic [ref=e999]:
+            - generic [ref=e1001]: Forged Review
+            - generic [ref=e1002]:
+              - img [ref=e1003]
+              - img [ref=e1005]
+              - img [ref=e1007]
+          - generic [ref=e1009]: Post a product review as another user or edit any user's existing review.
+          - generic [ref=e1010]:
+            - generic [ref=e1012]: With Coding Challenge
+            - generic [ref=e1013]:
+              - button [ref=e1014] [cursor=pointer]:
+                - img [ref=e1015]: code
+              - link [ref=e1016] [cursor=pointer]:
+                - /url: https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+                - img [ref=e1017]: policy_outline
+              - button [ref=e1018] [cursor=pointer]:
+                - img [ref=e1019]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e1020]:
+          - generic [ref=e1021]: Broken Authentication
+          - generic [ref=e1022]:
+            - generic [ref=e1024]: GDPR Data Erasure
+            - generic [ref=e1025]:
+              - img [ref=e1026]
+              - img [ref=e1028]
+              - img [ref=e1030]
+          - generic [ref=e1032]: Log in with Chris' erased user account.
+          - button [ref=e1035] [cursor=pointer]:
+            - img [ref=e1036]: lightbulb_outlined
+            - text: 0/4
+        - generic [ref=e1037]:
+          - generic [ref=e1038]: Sensitive Data Exposure
+          - generic [ref=e1039]:
+            - generic [ref=e1041]: Login Amy
+            - generic [ref=e1042]:
+              - img [ref=e1043]
+              - img [ref=e1045]
+              - img [ref=e1047]
+          - generic [ref=e1049]: Log in with Amy's original user credentials. (This could take 93.83 billion trillion trillion centuries to brute force, but luckily she did not read the "One Important Final Note")
+          - generic [ref=e1050]:
+            - generic [ref=e1052]: OSINT
+            - button [ref=e1054] [cursor=pointer]:
+              - img [ref=e1055]: lightbulb_outlined
+              - text: 0/5
+        - generic [ref=e1056]:
+          - generic [ref=e1057]: Broken Access Control
+          - generic [ref=e1058]:
+            - generic [ref=e1060]: Manipulate Basket
+            - generic [ref=e1061]:
+              - img [ref=e1062]
+              - img [ref=e1064]
+              - img [ref=e1066]
+          - generic [ref=e1068]: Put an additional product into another user's shopping basket.
+          - button [ref=e1071] [cursor=pointer]:
+            - img [ref=e1072]: lightbulb_outlined
+            - text: 0/3
+        - generic [ref=e1073]:
+          - generic [ref=e1074]: Improper Input Validation
+          - generic [ref=e1075]:
+            - generic [ref=e1077]: Mint the Honey Pot
+            - generic [ref=e1078]:
+              - img [ref=e1079]
+              - img [ref=e1081]
+              - img [ref=e1083]
+          - generic [ref=e1085]: Mint the Honey Pot NFT by gathering BEEs from the bee haven.
+          - generic [ref=e1086]:
+            - generic [ref=e1087]:
+              - generic [ref=e1088]: Web3
+              - generic [ref=e1089]: Internet Traffic
+              - generic [ref=e1090]: With Coding Challenge
+            - generic [ref=e1091]:
+              - button [disabled] [ref=e1092]:
+                - img [ref=e1093]: code
+              - button [ref=e1094] [cursor=pointer]:
+                - img [ref=e1095]: lightbulb_outlined
+                - text: 0/1
+        - generic [ref=e1096]:
+          - generic [ref=e1097]: Improper Input Validation
+          - generic [ref=e1098]:
+            - generic [ref=e1100]: Payback Time
+            - generic [ref=e1101]:
+              - img [ref=e1102]
+              - img [ref=e1104]
+              - img [ref=e1106]
+          - generic [ref=e1108]: Place an order that makes you rich.
+          - generic [ref=e1110]:
+            - link [ref=e1111] [cursor=pointer]:
+              - /url: https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html
+              - img [ref=e1112]: policy_outline
+            - button [ref=e1113] [cursor=pointer]:
+              - img [ref=e1114]: lightbulb_outlined
+              - text: 0/2
+        - generic [ref=e1115]:
+          - generic [ref=e1116]: Security through Obscurity
+          - generic [ref=e1117]:
+            - generic [ref=e1119]: Privacy Policy Inspection
+            - generic [ref=e1120]:
+              - img [ref=e1121]
+              - img [ref=e1123]
+              - img [ref=e1125]
+          - generic [ref=e1127]: Prove that you actually read our privacy policy.
+          - generic [ref=e1128]:
+            - generic [ref=e1129]:
+              - generic [ref=e1130]: Shenanigans
+              - generic [ref=e1131]: Good for Demos
+            - button [ref=e1133] [cursor=pointer]:
+              - img [ref=e1134]: lightbulb_outlined
+              - text: 0/4
+        - generic [ref=e1135]:
+          - generic [ref=e1136]: Broken Access Control
+          - generic [ref=e1137]:
+            - generic [ref=e1139]: Product Tampering
+            - generic [ref=e1140]:
+              - img [ref=e1141]
+              - img [ref=e1143]
+              - img [ref=e1145]
+          - generic [ref=e1147]:
+            - text: Change the
+            - code [ref=e1148]: href
+            - text: of the link within the
+            - link [ref=e1149] [cursor=pointer]:
+              - /url: /#/search?q=OWASP SSL Advanced Forensic Tool (O-Saft)
+              - text: OWASP SSL Advanced Forensic Tool (O-Saft)
+            - text: product description into https://owasp.slack.com.
+          - generic [ref=e1150]:
+            - generic [ref=e1152]: With Coding Challenge
+            - generic [ref=e1153]:
+              - button [disabled] [ref=e1154]:
+                - img [ref=e1155]: code
+              - button [ref=e1156] [cursor=pointer]:
+                - img [ref=e1157]: lightbulb_outlined
+                - text: 0/2
+        - generic [ref=e1158]:
+          - generic [ref=e1159]: Broken Authentication
+          - generic [ref=e1160]:
+            - generic [ref=e1162]: Reset Jim's Password
+            - generic [ref=e1163]:
+              - img [ref=e1164]
+              - img [ref=e1166]
+              - img [ref=e1168]
+          - generic [ref=e1170]:
+            - text: Reset Jim's password via the
+            - link [ref=e1171] [cursor=pointer]:
+              - /url: /#/forgot-password
+              - text: Forgot Password
+            - text: mechanism with the original answer to his security question.
+          - generic [ref=e1172]:
+            - generic [ref=e1173]:
+              - generic [ref=e1174]: OSINT
+              - generic [ref=e1175]: With Coding Challenge
+            - generic [ref=e1176]:
+              - button [disabled] [ref=e1177]:
+                - img [ref=e1178]: code
+              - button [ref=e1179] [cursor=pointer]:
+                - img [ref=e1180]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e1181]:
+          - generic [ref=e1182]: Miscellaneous
+          - generic [ref=e1183]:
+            - generic [ref=e1185]: Security Advisory
+            - generic [ref=e1186]:
+              - img [ref=e1187]
+              - img [ref=e1189]
+              - img [ref=e1191]
+          - generic [ref=e1193]:
+            - text: The Juice Shop is susceptible to a known vulnerability in a library, for which an advisory has already been issued, marking the Juice Shop as known affected. A fix is still pending.
+            - link [ref=e1194] [cursor=pointer]:
+              - /url: /#/contact
+              - text: Inform the shop
+            - text: about a suitable checksum as proof that you did your due diligence.
+          - button [ref=e1197] [cursor=pointer]:
+            - img [ref=e1198]: lightbulb_outlined
+            - text: 0/1
+        - generic [ref=e1199]:
+          - generic [ref=e1200]: Improper Input Validation
+          - generic [ref=e1201]:
+            - generic [ref=e1203]: Upload Size
+            - generic [ref=e1204]:
+              - img [ref=e1205]
+              - img [ref=e1207]
+              - img [ref=e1209]
+          - generic [ref=e1211]: Upload a file larger than 100 kB.
+          - button [ref=e1214] [cursor=pointer]:
+            - img [ref=e1215]: lightbulb_outlined
+            - text: 0/3
+        - generic [ref=e1216]:
+          - generic [ref=e1217]: Improper Input Validation
+          - generic [ref=e1218]:
+            - generic [ref=e1220]: Upload Type
+            - generic [ref=e1221]:
+              - img [ref=e1222]
+              - img [ref=e1224]
+              - img [ref=e1226]
+          - generic [ref=e1228]: Upload a file that has no .pdf or .zip extension.
+          - button [ref=e1231] [cursor=pointer]:
+            - img [ref=e1232]: lightbulb_outlined
+            - text: 0/2
+        - generic [ref=e1233]:
+          - generic [ref=e1234]: XXE
+          - generic [ref=e1235]:
+            - generic [ref=e1237]: XXE Data Access
+            - generic [ref=e1238]:
+              - img [ref=e1239]
+              - img [ref=e1241]
+              - img [ref=e1243]
+          - generic [ref=e1245]:
+            - text: Retrieve the content of
+            - code [ref=e1246]: C:\Windows\system.ini
+            - text: or
+            - code [ref=e1247]: /etc/passwd
+            - text: from the server.
+            - emphasis [ref=e1248]:
+              - text: (This challenge is
+              - strong [ref=e1249]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e1250]:
+            - generic [ref=e1252]: Danger Zone
+            - generic [ref=e1253]:
+              - button [ref=e1254] [cursor=pointer]:
+                - img [ref=e1255]: info_outline
+              - button [ref=e1256] [cursor=pointer]:
+                - img [ref=e1257]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e1258]:
+          - generic [ref=e1259]: Observability Failures
+          - generic [ref=e1260]:
+            - generic [ref=e1262]: Access Log
+            - generic [ref=e1263]:
+              - img [ref=e1264]
+              - img [ref=e1266]
+              - img [ref=e1268]
+              - img [ref=e1270]
+          - generic [ref=e1272]: Gain access to any access log file of the server.
+          - generic [ref=e1273]:
+            - generic [ref=e1275]: With Coding Challenge
+            - generic [ref=e1276]:
+              - button [disabled] [ref=e1277]:
+                - img [ref=e1278]: code
+              - button [ref=e1279] [cursor=pointer]:
+                - img [ref=e1280]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e1281]:
+          - generic [ref=e1282]: Unvalidated Redirects
+          - generic [ref=e1283]:
+            - generic [ref=e1285]: Allowlist Bypass
+            - generic [ref=e1286]:
+              - img [ref=e1287]
+              - img [ref=e1289]
+              - img [ref=e1291]
+              - img [ref=e1293]
+          - generic [ref=e1295]: Enforce a redirect to a page you are not supposed to redirect to.
+          - generic [ref=e1296]:
+            - generic [ref=e1297]:
+              - generic [ref=e1298]: Prerequisite
+              - generic [ref=e1299]: With Coding Challenge
+            - generic [ref=e1300]:
+              - button [disabled] [ref=e1301]:
+                - img [ref=e1302]: code
+              - button [ref=e1303] [cursor=pointer]:
+                - img [ref=e1304]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e1305]:
+          - generic [ref=e1306]: XSS
+          - generic [ref=e1307]:
+            - generic [ref=e1309]: CSP Bypass
+            - generic [ref=e1310]:
+              - img [ref=e1311]
+              - img [ref=e1313]
+              - img [ref=e1315]
+              - img [ref=e1317]
+          - generic [ref=e1319]:
+            - text: Bypass the Content Security Policy and perform an XSS attack with
+            - code [ref=e1320]: "<script>alert(`xss`)</script>"
+            - text: on a legacy page within the application.
+            - emphasis [ref=e1321]:
+              - text: (This challenge is
+              - strong [ref=e1322]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e1323]:
+            - generic [ref=e1325]: Danger Zone
+            - generic [ref=e1326]:
+              - button [ref=e1327] [cursor=pointer]:
+                - img [ref=e1328]: info_outline
+              - button [ref=e1329] [cursor=pointer]:
+                - img [ref=e1330]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e1331]:
+          - generic [ref=e1332]: Injection
+          - generic [ref=e1333]:
+            - generic [ref=e1335]: Christmas Special
+            - generic [ref=e1336]:
+              - img [ref=e1337]
+              - img [ref=e1339]
+              - img [ref=e1341]
+              - img [ref=e1343]
+          - generic [ref=e1345]: Order the Christmas special offer of 2014.
+          - button [ref=e1348] [cursor=pointer]:
+            - img [ref=e1349]: lightbulb_outlined
+            - text: 0/5
+        - generic [ref=e1350]:
+          - generic [ref=e1351]: Broken Access Control
+          - generic [ref=e1352]:
+            - generic [ref=e1354]: Easter Egg
+            - generic [ref=e1355]:
+              - img [ref=e1356]
+              - img [ref=e1358]
+              - img [ref=e1360]
+              - img [ref=e1362]
+          - generic [ref=e1364]:
+            - text: Find the hidden
+            - link [ref=e1365] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Easter_egg_(media)
+              - text: easter egg
+            - text: .
+          - generic [ref=e1366]:
+            - generic [ref=e1367]:
+              - generic [ref=e1368]: Shenanigans
+              - generic [ref=e1369]: Contraption
+              - generic [ref=e1370]: Good for Demos
+            - button [ref=e1372] [cursor=pointer]:
+              - img [ref=e1373]: lightbulb_outlined
+              - text: 0/2
+        - generic [ref=e1374]:
+          - generic [ref=e1375]: Injection
+          - generic [ref=e1376]:
+            - generic [ref=e1378]: Ephemeral Accountant
+            - generic [ref=e1379]:
+              - img [ref=e1380]
+              - img [ref=e1382]
+              - img [ref=e1384]
+              - img [ref=e1386]
+          - generic [ref=e1388]: Log in with the (non-existing) accountant acc0unt4nt@juice-sh.op without ever registering that user.
+          - button [ref=e1391] [cursor=pointer]:
+            - img [ref=e1392]: lightbulb_outlined
+            - text: 0/5
+        - generic [ref=e1393]:
+          - generic [ref=e1394]: Improper Input Validation
+          - generic [ref=e1395]:
+            - generic [ref=e1397]: Expired Coupon
+            - generic [ref=e1398]:
+              - img [ref=e1399]
+              - img [ref=e1401]
+              - img [ref=e1403]
+              - img [ref=e1405]
+          - generic [ref=e1407]: Successfully redeem an expired campaign coupon code.
+          - button [ref=e1410] [cursor=pointer]:
+            - img [ref=e1411]: lightbulb_outlined
+            - text: 0/3
+        - generic [ref=e1412]:
+          - generic [ref=e1413]: Sensitive Data Exposure
+          - generic [ref=e1414]:
+            - generic [ref=e1416]: Forgotten Developer Backup
+            - generic [ref=e1417]:
+              - img [ref=e1418]
+              - img [ref=e1420]
+              - img [ref=e1422]
+              - img [ref=e1424]
+          - generic [ref=e1426]: Access a developer's forgotten backup file.
+          - generic [ref=e1427]:
+            - generic [ref=e1428]:
+              - generic [ref=e1429]: Contraption
+              - generic [ref=e1430]: Good for Demos
+              - generic [ref=e1431]: Prerequisite
+            - button [ref=e1433] [cursor=pointer]:
+              - img [ref=e1434]: lightbulb_outlined
+              - text: 0/5
+        - generic [ref=e1435]:
+          - generic [ref=e1436]: Sensitive Data Exposure
+          - generic [ref=e1437]:
+            - generic [ref=e1439]: Forgotten Sales Backup
+            - generic [ref=e1440]:
+              - img [ref=e1441]
+              - img [ref=e1443]
+              - img [ref=e1445]
+              - img [ref=e1447]
+          - generic [ref=e1449]: Access a salesman's forgotten backup file.
+          - generic [ref=e1450]:
+            - generic [ref=e1452]: Contraption
+            - button [ref=e1454] [cursor=pointer]:
+              - img [ref=e1455]: lightbulb_outlined
+              - text: 0/4
+        - generic [ref=e1456]:
+          - generic [ref=e1457]: Sensitive Data Exposure
+          - generic [ref=e1458]:
+            - generic [ref=e1460]: GDPR Data Theft
+            - generic [ref=e1461]:
+              - img [ref=e1462]
+              - img [ref=e1464]
+              - img [ref=e1466]
+              - img [ref=e1468]
+          - generic [ref=e1470]: Steal someone else's personal data without using Injection.
+          - button [ref=e1473] [cursor=pointer]:
+            - img [ref=e1474]: lightbulb_outlined
+            - text: 0/4
+        - generic [ref=e1475]:
+          - generic [ref=e1476]: XSS
+          - generic [ref=e1477]:
+            - generic [ref=e1479]: HTTP-Header XSS
+            - generic [ref=e1480]:
+              - img [ref=e1481]
+              - img [ref=e1483]
+              - img [ref=e1485]
+              - img [ref=e1487]
+          - generic [ref=e1489]:
+            - text: Perform a persisted XSS attack with
+            - code [ref=e1490]: "<iframe src=\"javascript:alert(`xss`)\">"
+            - text: through an HTTP header.
+            - emphasis [ref=e1491]:
+              - text: (This challenge is
+              - strong [ref=e1492]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e1493]:
+            - generic [ref=e1495]: Danger Zone
+            - generic [ref=e1496]:
+              - button [ref=e1497] [cursor=pointer]:
+                - img [ref=e1498]: info_outline
+              - button [ref=e1499] [cursor=pointer]:
+                - img [ref=e1500]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e1501]:
+          - generic [ref=e1502]: Sensitive Data Exposure
+          - generic [ref=e1503]:
+            - generic [ref=e1505]: Leaked Unsafe Product
+            - generic [ref=e1506]:
+              - img [ref=e1507]
+              - img [ref=e1509]
+              - img [ref=e1511]
+              - img [ref=e1513]
+          - generic [ref=e1515]:
+            - text: Identify an unsafe product that was removed from the shop and
+            - link [ref=e1516] [cursor=pointer]:
+              - /url: /#/contact
+              - text: inform the shop
+            - text: which ingredients are dangerous.
+          - generic [ref=e1517]:
+            - generic [ref=e1518]:
+              - generic [ref=e1519]: Shenanigans
+              - generic [ref=e1520]: OSINT
+            - button [ref=e1522] [cursor=pointer]:
+              - img [ref=e1523]: lightbulb_outlined
+              - text: 0/5
+        - generic [ref=e1524]:
+          - generic [ref=e1525]: Vulnerable Components
+          - generic [ref=e1526]:
+            - generic [ref=e1528]: Legacy Typosquatting
+            - generic [ref=e1529]:
+              - img [ref=e1530]
+              - img [ref=e1532]
+              - img [ref=e1534]
+              - img [ref=e1536]
+          - generic [ref=e1538]:
+            - link [ref=e1539] [cursor=pointer]:
+              - /url: /#/contact
+              - text: Inform the shop
+            - text: about a typosquatting trick it has been a victim of at least in
+            - code [ref=e1540]: v6.2.0-SNAPSHOT
+            - text: . (Mention the exact name of the culprit)
+          - button [ref=e1543] [cursor=pointer]:
+            - img [ref=e1544]: lightbulb_outlined
+            - text: 0/3
+        - generic [ref=e1545]:
+          - generic [ref=e1546]: Broken Authentication
+          - generic [ref=e1547]:
+            - generic [ref=e1549]: Login Bjoern
+            - generic [ref=e1550]:
+              - img [ref=e1551]
+              - img [ref=e1553]
+              - img [ref=e1555]
+              - img [ref=e1557]
+          - generic [ref=e1559]: Log in with Bjoern's Gmail account without previously changing his password, applying SQL Injection, or hacking his Google account.
+          - generic [ref=e1560]:
+            - generic [ref=e1562]: Code Analysis
+            - generic [ref=e1563]:
+              - link [ref=e1564] [cursor=pointer]:
+                - /url: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
+                - img [ref=e1565]: policy_outline
+              - button [ref=e1566] [cursor=pointer]:
+                - img [ref=e1567]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e1568]:
+          - generic [ref=e1569]: Observability Failures
+          - generic [ref=e1570]:
+            - generic [ref=e1572]: Misplaced Signature File
+            - generic [ref=e1573]:
+              - img [ref=e1574]
+              - img [ref=e1576]
+              - img [ref=e1578]
+              - img [ref=e1580]
+          - generic [ref=e1582]:
+            - text: Access a misplaced
+            - link [ref=e1583] [cursor=pointer]:
+              - /url: https://github.com/Neo23x0/sigma
+              - text: SIEM signature
+            - text: file.
+          - generic [ref=e1584]:
+            - generic [ref=e1585]:
+              - generic [ref=e1586]: Good Practice
+              - generic [ref=e1587]: Contraption
+            - button [ref=e1589] [cursor=pointer]:
+              - img [ref=e1590]: lightbulb_outlined
+              - text: 0/3
+        - generic [ref=e1591]:
+          - generic [ref=e1592]: Cryptographic Issues
+          - generic [ref=e1593]:
+            - generic [ref=e1595]: Nested Easter Egg
+            - generic [ref=e1596]:
+              - img [ref=e1597]
+              - img [ref=e1599]
+              - img [ref=e1601]
+              - img [ref=e1603]
+          - generic [ref=e1605]: Apply some advanced cryptanalysis to find the real easter egg.
+          - generic [ref=e1606]:
+            - generic [ref=e1607]:
+              - generic [ref=e1608]: Shenanigans
+              - generic [ref=e1609]: Good for Demos
+            - button [ref=e1611] [cursor=pointer]:
+              - img [ref=e1612]: lightbulb_outlined
+              - text: 0/3
+        - generic [ref=e1613]:
+          - generic [ref=e1614]: Injection
+          - generic [ref=e1615]:
+            - generic [ref=e1617]: NoSQL DoS
+            - generic [ref=e1618]:
+              - img [ref=e1619]
+              - img [ref=e1621]
+              - img [ref=e1623]
+              - img [ref=e1625]
+          - generic [ref=e1627]:
+            - text: Let the server sleep for some time. (It has done more than enough hard work for you)
+            - emphasis [ref=e1628]:
+              - text: (This challenge is
+              - strong [ref=e1629]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e1630]:
+            - generic [ref=e1632]: Danger Zone
+            - generic [ref=e1633]:
+              - button [ref=e1634] [cursor=pointer]:
+                - img [ref=e1635]: info_outline
+              - button [ref=e1636] [cursor=pointer]:
+                - img [ref=e1637]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e1638]:
+          - generic [ref=e1639]: Injection
+          - generic [ref=e1640]:
+            - generic [ref=e1642]: NoSQL Manipulation
+            - generic [ref=e1643]:
+              - img [ref=e1644]
+              - img [ref=e1646]
+              - img [ref=e1648]
+              - img [ref=e1650]
+          - generic [ref=e1652]: Update multiple product reviews at the same time.
+          - generic [ref=e1653]:
+            - generic [ref=e1655]: With Coding Challenge
+            - generic [ref=e1656]:
+              - button [disabled] [ref=e1657]:
+                - img [ref=e1658]: code
+              - button [ref=e1659] [cursor=pointer]:
+                - img [ref=e1660]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e1661]:
+          - generic [ref=e1662]: Improper Input Validation
+          - generic [ref=e1663]:
+            - generic [ref=e1665]: Poison Null Byte
+            - generic [ref=e1666]:
+              - img [ref=e1667]
+              - img [ref=e1669]
+              - img [ref=e1671]
+              - img [ref=e1673]
+          - generic [ref=e1675]:
+            - text: Bypass a security control with a
+            - link [ref=e1676] [cursor=pointer]:
+              - /url: https://hakipedia.com/index.php/Poison_Null_Byte
+              - text: Poison Null Byte
+            - text: to access a file not meant for your eyes.
+          - generic [ref=e1677]:
+            - generic [ref=e1679]: Prerequisite
+            - button [ref=e1681] [cursor=pointer]:
+              - img [ref=e1682]: lightbulb_outlined
+              - text: 0/4
+        - generic [ref=e1683]:
+          - generic [ref=e1684]: Broken Authentication
+          - generic [ref=e1685]:
+            - generic [ref=e1687]: Reset Bender's Password
+            - generic [ref=e1688]:
+              - img [ref=e1689]
+              - img [ref=e1691]
+              - img [ref=e1693]
+              - img [ref=e1695]
+          - generic [ref=e1697]:
+            - text: Reset Bender's password via the
+            - link [ref=e1698] [cursor=pointer]:
+              - /url: /#/forgot-password
+              - text: Forgot Password
+            - text: mechanism with the original answer to his security question.
+          - generic [ref=e1699]:
+            - generic [ref=e1700]:
+              - generic [ref=e1701]: OSINT
+              - generic [ref=e1702]: With Coding Challenge
+            - generic [ref=e1703]:
+              - button [disabled] [ref=e1704]:
+                - img [ref=e1705]: code
+              - button [ref=e1706] [cursor=pointer]:
+                - img [ref=e1707]: lightbulb_outlined
+                - text: 0/5
+        - generic [ref=e1708]:
+          - generic [ref=e1709]: Sensitive Data Exposure
+          - generic [ref=e1710]:
+            - generic [ref=e1712]: Reset Uvogin's Password
+            - generic [ref=e1713]:
+              - img [ref=e1714]
+              - img [ref=e1716]
+              - img [ref=e1718]
+              - img [ref=e1720]
+          - generic [ref=e1722]:
+            - text: Reset Uvogin's password via the
+            - link [ref=e1723] [cursor=pointer]:
+              - /url: /#/forgot-password
+              - text: Forgot Password
+            - text: mechanism with the original answer to his security question.
+          - generic [ref=e1724]:
+            - generic [ref=e1725]:
+              - generic [ref=e1726]: OSINT
+              - generic [ref=e1727]: With Coding Challenge
+            - generic [ref=e1728]:
+              - button [disabled] [ref=e1729]:
+                - img [ref=e1730]: code
+              - button [ref=e1731] [cursor=pointer]:
+                - img [ref=e1732]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e1733]:
+          - generic [ref=e1734]: XSS
+          - generic [ref=e1735]:
+            - generic [ref=e1737]: Server-side XSS Protection
+            - generic [ref=e1738]:
+              - img [ref=e1739]
+              - img [ref=e1741]
+              - img [ref=e1743]
+              - img [ref=e1745]
+          - generic [ref=e1747]:
+            - text: Perform a persisted XSS attack with
+            - code [ref=e1748]: "<iframe src=\"javascript:alert(`xss`)\">"
+            - text: bypassing a server-side security mechanism.
+            - emphasis [ref=e1749]:
+              - text: (This challenge is
+              - strong [ref=e1750]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e1751]:
+            - generic [ref=e1753]: Danger Zone
+            - generic [ref=e1754]:
+              - button [ref=e1755] [cursor=pointer]:
+                - img [ref=e1756]: info_outline
+              - button [ref=e1757] [cursor=pointer]:
+                - img [ref=e1758]: lightbulb_outlined
+                - text: 0/5
+        - generic [ref=e1759]:
+          - generic [ref=e1760]: Security through Obscurity
+          - generic [ref=e1761]:
+            - generic [ref=e1763]: Steganography
+            - generic [ref=e1764]:
+              - img [ref=e1765]
+              - img [ref=e1767]
+              - img [ref=e1769]
+              - img [ref=e1771]
+          - generic [ref=e1773]:
+            - link [ref=e1774] [cursor=pointer]:
+              - /url: /#/contact
+              - text: Rat out
+            - text: a notorious character hiding in plain sight in the shop. (Mention the exact name of the character)
+          - generic [ref=e1775]:
+            - generic [ref=e1777]: Shenanigans
+            - button [ref=e1779] [cursor=pointer]:
+              - img [ref=e1780]: lightbulb_outlined
+              - text: 0/4
+        - generic [ref=e1781]:
+          - generic [ref=e1782]: Injection
+          - generic [ref=e1783]:
+            - generic [ref=e1785]: User Credentials
+            - generic [ref=e1786]:
+              - img [ref=e1787]
+              - img [ref=e1789]
+              - img [ref=e1791]
+              - img [ref=e1793]
+          - generic [ref=e1795]: Retrieve a list of all user credentials via SQL Injection.
+          - generic [ref=e1796]:
+            - generic [ref=e1798]: With Coding Challenge
+            - generic [ref=e1799]:
+              - button [disabled] [ref=e1800]:
+                - img [ref=e1801]: code
+              - button [ref=e1802] [cursor=pointer]:
+                - img [ref=e1803]: lightbulb_outlined
+                - text: 0/5
+        - generic [ref=e1804]:
+          - generic [ref=e1805]: Vulnerable Components
+          - generic [ref=e1806]:
+            - generic [ref=e1808]: Vulnerable Library
+            - generic [ref=e1809]:
+              - img [ref=e1810]
+              - img [ref=e1812]
+              - img [ref=e1814]
+              - img [ref=e1816]
+          - generic [ref=e1818]:
+            - link [ref=e1819] [cursor=pointer]:
+              - /url: /#/contact
+              - text: Inform the shop
+            - text: about a vulnerable library it is using. (Mention the exact library name and version in your comment)
+          - generic [ref=e1820]:
+            - generic [ref=e1822]: OSINT
+            - button [ref=e1824] [cursor=pointer]:
+              - img [ref=e1825]: lightbulb_outlined
+              - text: 0/3
+        - generic [ref=e1826]:
+          - generic [ref=e1827]: Security through Obscurity
+          - generic [ref=e1828]:
+            - generic [ref=e1830]: Blockchain Hype
+            - generic [ref=e1831]:
+              - img [ref=e1832]
+              - img [ref=e1834]
+              - img [ref=e1836]
+              - img [ref=e1838]
+              - img [ref=e1840]
+          - generic [ref=e1842]: Learn about the Token Sale before its official announcement.
+          - generic [ref=e1843]:
+            - generic [ref=e1844]:
+              - generic [ref=e1845]: Contraption
+              - generic [ref=e1846]: Code Analysis
+              - generic [ref=e1847]: Web3
+              - generic [ref=e1848]: With Coding Challenge
+            - generic [ref=e1849]:
+              - button [disabled] [ref=e1850]:
+                - img [ref=e1851]: code
+              - button [ref=e1852] [cursor=pointer]:
+                - img [ref=e1853]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e1854]:
+          - generic [ref=e1855]: Insecure Deserialization
+          - generic [ref=e1856]:
+            - generic [ref=e1858]: Blocked RCE DoS
+            - generic [ref=e1859]:
+              - img [ref=e1860]
+              - img [ref=e1862]
+              - img [ref=e1864]
+              - img [ref=e1866]
+              - img [ref=e1868]
+          - generic [ref=e1870]:
+            - text: Perform a Remote Code Execution that would keep a less hardened application busy
+            - emphasis [ref=e1871]: forever
+            - text: .
+            - emphasis [ref=e1872]:
+              - text: (This challenge is
+              - strong [ref=e1873]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e1874]:
+            - generic [ref=e1876]: Danger Zone
+            - generic [ref=e1877]:
+              - button [ref=e1878] [cursor=pointer]:
+                - img [ref=e1879]: info_outline
+              - button [ref=e1880] [cursor=pointer]:
+                - img [ref=e1881]: lightbulb_outlined
+                - text: 0/5
+        - generic [ref=e1882]:
+          - generic [ref=e1883]: Broken Authentication
+          - generic [ref=e1884]:
+            - generic [ref=e1886]: Change Bender's Password
+            - generic [ref=e1887]:
+              - img [ref=e1888]
+              - img [ref=e1890]
+              - img [ref=e1892]
+              - img [ref=e1894]
+              - img [ref=e1896]
+          - generic [ref=e1898]: Change Bender's password into slurmCl4ssic without using SQL Injection or Forgot Password.
+          - button [ref=e1901] [cursor=pointer]:
+            - img [ref=e1902]: lightbulb_outlined
+            - text: 0/3
+        - generic [ref=e1903]:
+          - generic [ref=e1904]: Security Misconfiguration
+          - generic [ref=e1905]:
+            - generic [ref=e1907]: Cross-Site Imaging
+            - generic [ref=e1908]:
+              - img [ref=e1909]
+              - img [ref=e1911]
+              - img [ref=e1913]
+              - img [ref=e1915]
+              - img [ref=e1917]
+          - generic [ref=e1919]:
+            - text: Stick
+            - link [ref=e1920] [cursor=pointer]:
+              - /url: https://cataas.com/cat
+              - text: cute cross-domain kittens
+            - text: all over our delivery boxes.
+          - generic [ref=e1921]:
+            - generic [ref=e1923]: Contraption
+            - button [ref=e1925] [cursor=pointer]:
+              - img [ref=e1926]: lightbulb_outlined
+              - text: 0/5
+        - generic [ref=e1927]:
+          - generic [ref=e1928]: Sensitive Data Exposure
+          - generic [ref=e1929]:
+            - generic [ref=e1931]: Email Leak
+            - generic [ref=e1932]:
+              - img [ref=e1933]
+              - img [ref=e1935]
+              - img [ref=e1937]
+              - img [ref=e1939]
+              - img [ref=e1941]
+          - generic [ref=e1943]: Perform an unwanted information disclosure by accessing data cross-domain.
+          - button [ref=e1946] [cursor=pointer]:
+            - img [ref=e1947]: lightbulb_outlined
+            - text: 0/3
+        - generic [ref=e1948]:
+          - generic [ref=e1949]: Broken Anti Automation
+          - generic [ref=e1950]:
+            - generic [ref=e1952]: Extra Language
+            - generic [ref=e1953]:
+              - img [ref=e1954]
+              - img [ref=e1956]
+              - img [ref=e1958]
+              - img [ref=e1960]
+              - img [ref=e1962]
+          - generic [ref=e1964]: First you should find out how the languages are technically changed in the user interface.
+          - generic [ref=e1965]:
+            - generic [ref=e1967]: Brute Force
+            - button [ref=e1969] [cursor=pointer]:
+              - img [ref=e1970]: lightbulb_outlined
+              - text: 0/4
+        - generic [ref=e1971]:
+          - generic [ref=e1972]: Vulnerable Components
+          - generic [ref=e1973]:
+            - generic [ref=e1975]: Frontend Typosquatting
+            - generic [ref=e1976]:
+              - img [ref=e1977]
+              - img [ref=e1979]
+              - img [ref=e1981]
+              - img [ref=e1983]
+              - img [ref=e1985]
+          - generic [ref=e1987]:
+            - link [ref=e1988] [cursor=pointer]:
+              - /url: /#/contact
+              - text: Inform the shop
+            - text: about a typosquatting imposter that dug itself deep into the frontend. (Mention the exact name of the culprit)
+          - button [ref=e1991] [cursor=pointer]:
+            - img [ref=e1992]: lightbulb_outlined
+            - text: 0/3
+        - generic [ref=e1993]:
+          - generic [ref=e1994]: Vulnerable Components
+          - generic [ref=e1995]:
+            - generic [ref=e1997]: Kill Chatbot
+            - generic [ref=e1998]:
+              - img [ref=e1999]
+              - img [ref=e2001]
+              - img [ref=e2003]
+              - img [ref=e2005]
+              - img [ref=e2007]
+          - generic [ref=e2009]: Permanently disable the support chatbot so that it can no longer answer customer queries.
+          - generic [ref=e2010]:
+            - generic [ref=e2012]: Code Analysis
+            - button [ref=e2014] [cursor=pointer]:
+              - img [ref=e2015]: lightbulb_outlined
+              - text: 0/4
+        - generic [ref=e2016]:
+          - generic [ref=e2017]: Sensitive Data Exposure
+          - generic [ref=e2018]:
+            - generic [ref=e2020]: Leaked API Key
+            - generic [ref=e2021]:
+              - img [ref=e2022]
+              - img [ref=e2024]
+              - img [ref=e2026]
+              - img [ref=e2028]
+              - img [ref=e2030]
+          - generic [ref=e2032]:
+            - link [ref=e2033] [cursor=pointer]:
+              - /url: /#/contact
+              - text: Inform the shop
+            - text: about a leaked API key. (Mention the exact key in your comment)
+          - button [ref=e2036] [cursor=pointer]:
+            - img [ref=e2037]: lightbulb_outlined
+            - text: 0/4
+        - generic [ref=e2038]:
+          - generic [ref=e2039]: Observability Failures
+          - generic [ref=e2040]:
+            - generic [ref=e2042]: Leaked Access Logs
+            - generic [ref=e2043]:
+              - img [ref=e2044]
+              - img [ref=e2046]
+              - img [ref=e2048]
+              - img [ref=e2050]
+              - img [ref=e2052]
+          - generic [ref=e2054]: Dumpster dive the Internet for a leaked password and log in to the original user account it belongs to. (Creating a new account with the same password does not qualify as a solution.)
+          - generic [ref=e2055]:
+            - generic [ref=e2057]: OSINT
+            - button [ref=e2059] [cursor=pointer]:
+              - img [ref=e2060]: lightbulb_outlined
+              - text: 0/4
+        - generic [ref=e2061]:
+          - generic [ref=e2062]: Vulnerable Components
+          - generic [ref=e2063]:
+            - generic [ref=e2065]: Local File Read
+            - generic [ref=e2066]:
+              - img [ref=e2067]
+              - img [ref=e2069]
+              - img [ref=e2071]
+              - img [ref=e2073]
+              - img [ref=e2075]
+          - generic [ref=e2077]:
+            - text: Gain read access to an arbitrary local file on the web server.
+            - emphasis [ref=e2078]:
+              - text: (This challenge is
+              - strong [ref=e2079]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e2080]:
+            - generic [ref=e2081]:
+              - generic [ref=e2082]: OSINT
+              - generic [ref=e2083]: Danger Zone
+            - generic [ref=e2084]:
+              - button [ref=e2085] [cursor=pointer]:
+                - img [ref=e2086]: info_outline
+              - button [ref=e2087] [cursor=pointer]:
+                - img [ref=e2088]: lightbulb_outlined
+                - text: 0/5
+        - generic [ref=e2089]:
+          - generic [ref=e2090]: Insecure Deserialization
+          - generic [ref=e2091]:
+            - generic [ref=e2093]: Memory Bomb
+            - generic [ref=e2094]:
+              - img [ref=e2095]
+              - img [ref=e2097]
+              - img [ref=e2099]
+              - img [ref=e2101]
+              - img [ref=e2103]
+          - generic [ref=e2105]:
+            - text: Drop some explosive data into a vulnerable file-handling endpoint.
+            - emphasis [ref=e2106]:
+              - text: (This challenge is
+              - strong [ref=e2107]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e2108]:
+            - generic [ref=e2110]: Danger Zone
+            - generic [ref=e2111]:
+              - button [ref=e2112] [cursor=pointer]:
+                - img [ref=e2113]: info_outline
+              - button [ref=e2114] [cursor=pointer]:
+                - img [ref=e2115]: lightbulb_outlined
+                - text: 0/3
+        - generic [ref=e2116]:
+          - generic [ref=e2117]: Injection
+          - generic [ref=e2118]:
+            - generic [ref=e2120]: NoSQL Exfiltration
+            - generic [ref=e2121]:
+              - img [ref=e2122]
+              - img [ref=e2124]
+              - img [ref=e2126]
+              - img [ref=e2128]
+              - img [ref=e2130]
+          - generic [ref=e2132]:
+            - text: All your orders are belong to us! Even the ones which don't.
+            - emphasis [ref=e2133]:
+              - text: (This challenge is
+              - strong [ref=e2134]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e2135]:
+            - generic [ref=e2137]: Danger Zone
+            - generic [ref=e2138]:
+              - button [ref=e2139] [cursor=pointer]:
+                - img [ref=e2140]: info_outline
+              - button [ref=e2141] [cursor=pointer]:
+                - img [ref=e2142]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e2143]:
+          - generic [ref=e2144]: Broken Authentication
+          - generic [ref=e2145]:
+            - generic [ref=e2147]: Reset Bjoern's Password
+            - generic [ref=e2148]:
+              - img [ref=e2149]
+              - img [ref=e2151]
+              - img [ref=e2153]
+              - img [ref=e2155]
+              - img [ref=e2157]
+          - generic [ref=e2159]:
+            - text: Reset the password of Bjoern's internal account via the
+            - link [ref=e2160] [cursor=pointer]:
+              - /url: /#/forgot-password
+              - text: Forgot Password
+            - text: mechanism with the original answer to his security question.
+          - generic [ref=e2161]:
+            - generic [ref=e2162]:
+              - generic [ref=e2163]: OSINT
+              - generic [ref=e2164]: With Coding Challenge
+            - generic [ref=e2165]:
+              - button [disabled] [ref=e2166]:
+                - img [ref=e2167]: code
+              - button [ref=e2168] [cursor=pointer]:
+                - img [ref=e2169]: lightbulb_outlined
+                - text: 0/5
+        - generic [ref=e2170]:
+          - generic [ref=e2171]: Broken Anti Automation
+          - generic [ref=e2172]:
+            - generic [ref=e2174]: Reset Morty's Password
+            - generic [ref=e2175]:
+              - img [ref=e2176]
+              - img [ref=e2178]
+              - img [ref=e2180]
+              - img [ref=e2182]
+              - img [ref=e2184]
+          - generic [ref=e2186]:
+            - text: Reset Morty's password via the
+            - link [ref=e2187] [cursor=pointer]:
+              - /url: /#/forgot-password
+              - text: Forgot Password
+            - text: mechanism with his obfuscated answer to his security question.
+          - generic [ref=e2188]:
+            - generic [ref=e2189]:
+              - generic [ref=e2190]: OSINT
+              - generic [ref=e2191]: Brute Force
+              - generic [ref=e2192]: With Coding Challenge
+            - generic [ref=e2193]:
+              - button [disabled] [ref=e2194]:
+                - img [ref=e2195]: code
+              - button [ref=e2196] [cursor=pointer]:
+                - img [ref=e2197]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e2198]:
+          - generic [ref=e2199]: Sensitive Data Exposure
+          - generic [ref=e2200]:
+            - generic [ref=e2202]: Retrieve Blueprint
+            - generic [ref=e2203]:
+              - img [ref=e2204]
+              - img [ref=e2206]
+              - img [ref=e2208]
+              - img [ref=e2210]
+              - img [ref=e2212]
+          - generic [ref=e2214]: Deprive the shop of earnings by downloading the blueprint for one of its products.
+          - button [ref=e2217] [cursor=pointer]:
+            - img [ref=e2218]: lightbulb_outlined
+            - text: 0/3
+        - generic [ref=e2219]:
+          - generic [ref=e2220]: Vulnerable Components
+          - generic [ref=e2221]:
+            - generic [ref=e2223]: Supply Chain Attack
+            - generic [ref=e2224]:
+              - img [ref=e2225]
+              - img [ref=e2227]
+              - img [ref=e2229]
+              - img [ref=e2231]
+              - img [ref=e2233]
+          - generic [ref=e2235]:
+            - link [ref=e2236] [cursor=pointer]:
+              - /url: /#/contact
+              - text: Inform the development team
+            - text: about a danger to some of
+            - emphasis [ref=e2237]: their
+            - text: credentials. (Send them the URL of the
+            - emphasis [ref=e2238]: original report
+            - text: or an assigned CVE or another identifier of this vulnerability)
+          - generic [ref=e2239]:
+            - generic [ref=e2241]: OSINT
+            - button [ref=e2243] [cursor=pointer]:
+              - img [ref=e2244]: lightbulb_outlined
+              - text: 0/3
+        - generic [ref=e2245]:
+          - generic [ref=e2246]: Broken Authentication
+          - generic [ref=e2247]:
+            - generic [ref=e2249]: Two Factor Authentication
+            - generic [ref=e2250]:
+              - img [ref=e2251]
+              - img [ref=e2253]
+              - img [ref=e2255]
+              - img [ref=e2257]
+              - img [ref=e2259]
+          - generic [ref=e2261]: Solve the 2FA challenge for user "wurstbrot". (Disabling, bypassing or overwriting his 2FA settings does not count as a solution)
+          - button [ref=e2264] [cursor=pointer]:
+            - img [ref=e2265]: lightbulb_outlined
+            - text: 0/4
+        - generic [ref=e2266]:
+          - generic [ref=e2267]: Vulnerable Components
+          - generic [ref=e2268]:
+            - generic [ref=e2270]: Unsigned JWT
+            - generic [ref=e2271]:
+              - img [ref=e2272]
+              - img [ref=e2274]
+              - img [ref=e2276]
+              - img [ref=e2278]
+              - img [ref=e2280]
+          - generic [ref=e2282]: Forge an essentially unsigned JWT token that impersonates the (non-existing) user jwtn3d@juice-sh.op.
+          - button [ref=e2285] [cursor=pointer]:
+            - img [ref=e2286]: lightbulb_outlined
+            - text: 0/5
+        - generic [ref=e2287]:
+          - generic [ref=e2288]: XXE
+          - generic [ref=e2289]:
+            - generic [ref=e2291]: XXE DoS
+            - generic [ref=e2292]:
+              - img [ref=e2293]
+              - img [ref=e2295]
+              - img [ref=e2297]
+              - img [ref=e2299]
+              - img [ref=e2301]
+          - generic [ref=e2303]:
+            - text: Give the server something to chew on for quite a while.
+            - emphasis [ref=e2304]:
+              - text: (This challenge is
+              - strong [ref=e2305]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e2306]:
+            - generic [ref=e2308]: Danger Zone
+            - generic [ref=e2309]:
+              - button [ref=e2310] [cursor=pointer]:
+                - img [ref=e2311]: info_outline
+              - button [ref=e2312] [cursor=pointer]:
+                - img [ref=e2313]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e2314]:
+          - generic [ref=e2315]: Vulnerable Components
+          - generic [ref=e2316]:
+            - generic [ref=e2318]: Arbitrary File Write
+            - generic [ref=e2319]:
+              - img [ref=e2320]
+              - img [ref=e2322]
+              - img [ref=e2324]
+              - img [ref=e2326]
+              - img [ref=e2328]
+              - img [ref=e2330]
+          - generic [ref=e2332]:
+            - text: Overwrite the
+            - link [ref=e2333] [cursor=pointer]:
+              - /url: /ftp/legal.md
+              - text: Legal Information
+            - text: file.
+            - emphasis [ref=e2334]:
+              - text: (This challenge is
+              - strong [ref=e2335]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e2336]:
+            - generic [ref=e2337]:
+              - generic [ref=e2338]: Danger Zone
+              - generic [ref=e2339]: Prerequisite
+            - generic [ref=e2340]:
+              - button [ref=e2341] [cursor=pointer]:
+                - img [ref=e2342]: info_outline
+              - button [ref=e2343] [cursor=pointer]:
+                - img [ref=e2344]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e2345]:
+          - generic [ref=e2346]: Cryptographic Issues
+          - generic [ref=e2347]:
+            - generic [ref=e2349]: Forged Coupon
+            - generic [ref=e2350]:
+              - img [ref=e2351]
+              - img [ref=e2353]
+              - img [ref=e2355]
+              - img [ref=e2357]
+              - img [ref=e2359]
+              - img [ref=e2361]
+          - generic [ref=e2363]: Forge a coupon code that gives you a discount of at least 80%.
+          - generic [ref=e2364]:
+            - generic [ref=e2365]:
+              - generic [ref=e2366]: Good for Demos
+              - generic [ref=e2367]: Code Analysis
+            - button [ref=e2369] [cursor=pointer]:
+              - img [ref=e2370]: lightbulb_outlined
+              - text: 0/4
+        - generic [ref=e2371]:
+          - generic [ref=e2372]: Vulnerable Components
+          - generic [ref=e2373]:
+            - generic [ref=e2375]: Forged Signed JWT
+            - generic [ref=e2376]:
+              - img [ref=e2377]
+              - img [ref=e2379]
+              - img [ref=e2381]
+              - img [ref=e2383]
+              - img [ref=e2385]
+              - img [ref=e2387]
+          - generic [ref=e2389]: Forge an almost properly RSA-signed JWT token that impersonates the (non-existing) user rsa_lord@juice-sh.op.
+          - button [ref=e2392] [cursor=pointer]:
+            - img [ref=e2393]: lightbulb_outlined
+            - text: 0/6
+        - generic [ref=e2394]:
+          - generic [ref=e2395]: Cryptographic Issues
+          - generic [ref=e2396]:
+            - generic [ref=e2398]: Imaginary Challenge
+            - generic [ref=e2399]:
+              - img [ref=e2400]
+              - img [ref=e2402]
+              - img [ref=e2404]
+              - img [ref=e2406]
+              - img [ref=e2408]
+              - img [ref=e2410]
+          - generic [ref=e2412]: "Solve challenge #999. Unfortunately, this challenge does not exist."
+          - generic [ref=e2413]:
+            - generic [ref=e2414]:
+              - generic [ref=e2415]: Shenanigans
+              - generic [ref=e2416]: Code Analysis
+            - button [ref=e2418] [cursor=pointer]:
+              - img [ref=e2419]: lightbulb_outlined
+              - text: 0/5
+        - generic [ref=e2420]:
+          - generic [ref=e2421]: Security Misconfiguration
+          - generic [ref=e2422]:
+            - generic [ref=e2424]: Login Support Team
+            - generic [ref=e2425]:
+              - img [ref=e2426]
+              - img [ref=e2428]
+              - img [ref=e2430]
+              - img [ref=e2432]
+              - img [ref=e2434]
+              - img [ref=e2436]
+          - generic [ref=e2438]: Log in with the support team's original user credentials without applying SQL Injection or any other bypass.
+          - generic [ref=e2439]:
+            - generic [ref=e2440]:
+              - generic [ref=e2441]: Brute Force
+              - generic [ref=e2442]: Code Analysis
+            - button [ref=e2444] [cursor=pointer]:
+              - img [ref=e2445]: lightbulb_outlined
+              - text: 0/5
+        - generic [ref=e2446]:
+          - generic [ref=e2447]: Broken Anti Automation
+          - generic [ref=e2448]:
+            - generic [ref=e2450]: Multiple Likes
+            - generic [ref=e2451]:
+              - img [ref=e2452]
+              - img [ref=e2454]
+              - img [ref=e2456]
+              - img [ref=e2458]
+              - img [ref=e2460]
+              - img [ref=e2462]
+          - generic [ref=e2464]: Like any review at least three times as the same user.
+          - button [ref=e2467] [cursor=pointer]:
+            - img [ref=e2468]: lightbulb_outlined
+            - text: 0/4
+        - generic [ref=e2469]:
+          - generic [ref=e2470]: Cryptographic Issues
+          - generic [ref=e2471]:
+            - generic [ref=e2473]: Premium Paywall
+            - generic [ref=e2474]:
+              - img [ref=e2475]
+              - img [ref=e2477]
+              - img [ref=e2479]
+              - img [ref=e2481]
+              - img [ref=e2483]
+              - img [ref=e2485]
+          - generic [ref=e2487]:
+            - img [ref=e2488]: gem
+            - img [ref=e2494]: gem
+            - img [ref=e2500]: gem
+            - img [ref=e2506]: gem
+            - img [ref=e2512]: gem
+            - link [ref=e2518] [cursor=pointer]:
+              - /url: https://blockchain.info/address/1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm
+              - img [ref=e2519]: btc
+              - text: Unlock Premium Challenge
+            - text: to access exclusive content.
+          - generic [ref=e2525]:
+            - generic [ref=e2527]: Shenanigans
+            - button [ref=e2529] [cursor=pointer]:
+              - img [ref=e2530]: lightbulb_outlined
+              - text: 0/4
+        - generic [ref=e2531]:
+          - generic [ref=e2532]: Broken Access Control
+          - generic [ref=e2533]:
+            - generic [ref=e2535]: SSRF
+            - generic [ref=e2536]:
+              - img [ref=e2537]
+              - img [ref=e2539]
+              - img [ref=e2541]
+              - img [ref=e2543]
+              - img [ref=e2545]
+              - img [ref=e2547]
+          - generic [ref=e2549]: Request a hidden resource on server through server.
+          - generic [ref=e2550]:
+            - generic [ref=e2552]: Code Analysis
+            - button [ref=e2554] [cursor=pointer]:
+              - img [ref=e2555]: lightbulb_outlined
+              - text: 0/4
+        - generic [ref=e2556]:
+          - generic [ref=e2557]: Injection
+          - generic [ref=e2558]:
+            - generic [ref=e2560]: SSTi
+            - generic [ref=e2561]:
+              - img [ref=e2562]
+              - img [ref=e2564]
+              - img [ref=e2566]
+              - img [ref=e2568]
+              - img [ref=e2570]
+              - img [ref=e2572]
+          - generic [ref=e2574]:
+            - text: Infect the server with juicy malware by abusing arbitrary command execution.
+            - emphasis [ref=e2575]:
+              - text: (This challenge is
+              - strong [ref=e2576]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e2577]:
+            - generic [ref=e2578]:
+              - generic [ref=e2579]: Contraption
+              - generic [ref=e2580]: Danger Zone
+              - generic [ref=e2581]: Code Analysis
+            - generic [ref=e2582]:
+              - button [ref=e2583] [cursor=pointer]:
+                - img [ref=e2584]: info_outline
+              - button [ref=e2585] [cursor=pointer]:
+                - img [ref=e2586]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e2587]:
+          - generic [ref=e2588]: Insecure Deserialization
+          - generic [ref=e2589]:
+            - generic [ref=e2591]: Successful RCE DoS
+            - generic [ref=e2592]:
+              - img [ref=e2593]
+              - img [ref=e2595]
+              - img [ref=e2597]
+              - img [ref=e2599]
+              - img [ref=e2601]
+              - img [ref=e2603]
+          - generic [ref=e2605]:
+            - text: Perform a Remote Code Execution that occupies the server for a while without using infinite loops.
+            - emphasis [ref=e2606]:
+              - text: (This challenge is
+              - strong [ref=e2607]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e2608]:
+            - generic [ref=e2610]: Danger Zone
+            - generic [ref=e2611]:
+              - button [ref=e2612] [cursor=pointer]:
+                - img [ref=e2613]: info_outline
+              - button [ref=e2614] [cursor=pointer]:
+                - img [ref=e2615]: lightbulb_outlined
+                - text: 0/2
+        - generic [ref=e2616]:
+          - generic [ref=e2617]: XSS
+          - generic [ref=e2618]:
+            - generic [ref=e2620]: Video XSS
+            - generic [ref=e2621]:
+              - img [ref=e2622]
+              - img [ref=e2624]
+              - img [ref=e2626]
+              - img [ref=e2628]
+              - img [ref=e2630]
+              - img [ref=e2632]
+          - generic [ref=e2634]:
+            - text: Embed an XSS payload
+            - code [ref=e2635]: "</script><script>alert(`xss`)</script>"
+            - text: into our promo video.
+            - emphasis [ref=e2636]:
+              - text: (This challenge is
+              - strong [ref=e2637]: potentially harmful
+              - text: on Heroku!)
+          - generic [ref=e2638]:
+            - generic [ref=e2640]: Danger Zone
+            - generic [ref=e2641]:
+              - button [ref=e2642] [cursor=pointer]:
+                - img [ref=e2643]: info_outline
+              - button [ref=e2644] [cursor=pointer]:
+                - img [ref=e2645]: lightbulb_outlined
+                - text: 0/4
+        - generic [ref=e2646]:
+          - generic [ref=e2647]: Miscellaneous
+          - generic [ref=e2648]:
+            - generic [ref=e2650]: Wallet Depletion
+            - generic [ref=e2651]:
+              - img [ref=e2652]
+              - img [ref=e2654]
+              - img [ref=e2656]
+              - img [ref=e2658]
+              - img [ref=e2660]
+              - img [ref=e2662]
+          - generic [ref=e2664]: Withdraw more ETH from the new wallet than you deposited.
+          - generic [ref=e2665]:
+            - generic [ref=e2666]:
+              - generic [ref=e2667]: Web3
+              - generic [ref=e2668]: Internet Traffic
+              - generic [ref=e2669]: With Coding Challenge
+            - generic [ref=e2670]:
+              - button [disabled] [ref=e2671]:
+                - img [ref=e2672]: code
+              - button [ref=e2673] [cursor=pointer]:
+                - img [ref=e2674]: lightbulb_outlined
+                - text: 0/1
+      - img [ref=e2675]
+  - dialog [ref=e2680]:
+    - generic [ref=e2683]:
+      - heading "Welcome to OWASP Juice Shop!" [level=1] [ref=e2684]
+      - generic [ref=e2685]:
+        - paragraph [ref=e2686]:
+          - text: Being a web application with a vast number of intended security vulnerabilities, the
+          - strong [ref=e2687]: OWASP Juice Shop
+          - text: "is supposed to be the opposite of a best practice or template application for web developers: It is an awareness, training, demonstration and exercise tool for security risks in modern web applications. The"
+          - strong [ref=e2688]: OWASP Juice Shop
+          - text: is an open-source project hosted by the non-profit
+          - link "Open Worldwide Application Security Project (OWASP)" [active] [ref=e2689] [cursor=pointer]:
+            - /url: https://owasp.org
+          - text: and is developed and maintained by volunteers. Check out the link below for more information and documentation on the project.
+        - heading "https://owasp-juice.shop" [level=1] [ref=e2690]:
+          - link "https://owasp-juice.shop" [ref=e2691] [cursor=pointer]:
+            - /url: https://owasp-juice.shop
+      - generic [ref=e2692]:
+        - button "Help getting started" [ref=e2693]:
+          - img [ref=e2694]: school
+          - generic [ref=e2695]: Help getting started
+        - button "Close Welcome Banner" [ref=e2698] [cursor=pointer]:
+          - img [ref=e2699]: visibility_off
+          - generic [ref=e2700]: Dismiss
+```
